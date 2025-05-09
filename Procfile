@@ -1,1 +1,2 @@
-web: gunicorn diet_plan_api:app
+web: gunicorn app:app
+

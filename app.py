@@ -4,6 +4,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+
 # Weekly meal plan template
 weekly_meal_templates = {
     "Vata": {
